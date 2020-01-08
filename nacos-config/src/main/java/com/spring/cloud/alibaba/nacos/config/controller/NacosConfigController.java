@@ -1,4 +1,4 @@
-package com.spring.cloud.alibaba.nacos.nacosconfig.controller;
+package com.spring.cloud.alibaba.nacos.config.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ConfigurableApplicationContext;

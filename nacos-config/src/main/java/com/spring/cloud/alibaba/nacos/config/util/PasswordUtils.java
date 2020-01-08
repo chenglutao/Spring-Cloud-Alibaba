@@ -1,4 +1,4 @@
-package com.spring.cloud.alibaba.nacos.nacosconfig.util;
+package com.spring.cloud.alibaba.nacos.config.util;
 
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 

@@ -3,18 +3,18 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <parent>
-        <groupId>com.spring.cloud.alibaba</groupId>
-        <artifactId>spring-cloud</artifactId>
+        <groupId>com.spring.cloud.alibaba.nacos.discovery</groupId>
+        <artifactId>nacos-discovery</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>com.spring.cloud.alibaba.nacos</groupId>
-    <artifactId>nacos-config</artifactId>
+    <groupId>com.spring.cloud.alibaba.nacos.discovery.consume</groupId>
+    <artifactId>nacos-discovery-consume</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>nacos-config</name>
-    <description>Demo project for Spring Boot</description>
     <packaging>jar</packaging>
+    <name>nacos-discovery-consume</name>
+    <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
@@ -27,19 +27,8 @@
         </dependency>
         <dependency>
             <groupId>com.alibaba.cloud</groupId>
-            <artifactId>spring-cloud-starter-alibaba-nacos-config</artifactId>
+            <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.security</groupId>
-            <artifactId>spring-security-core</artifactId>
-            <version>5.2.0.RELEASE</version>
-        </dependency>
-
     </dependencies>
 
     <build>
@@ -48,7 +37,13 @@
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>${java.version}</source>
+                    <target>${java.version}</target>
+                </configuration>
+            </plugin>
         </plugins>
     </build>
-
 </project>
