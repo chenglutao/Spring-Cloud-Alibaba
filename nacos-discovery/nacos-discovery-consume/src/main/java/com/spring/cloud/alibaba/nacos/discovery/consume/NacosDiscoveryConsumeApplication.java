@@ -9,7 +9,6 @@ import org.springframework.web.client.RestTemplate;
 
 /**
  * @author chenglutao
- * @date 2020-01-08 14:00
  */
 @EnableDiscoveryClient
 @SpringBootApplication

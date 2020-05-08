@@ -5,7 +5,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author chenglutao
- * @date 2020-01-08 13:58
  */
 @RestController
 public class DemoController {

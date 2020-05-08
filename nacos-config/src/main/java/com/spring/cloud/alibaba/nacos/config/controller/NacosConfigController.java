@@ -7,7 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 /**
  * @author chenglutao
- * @date 2020/1/7 23:01
  */
 @RestController
 public class NacosConfigController {

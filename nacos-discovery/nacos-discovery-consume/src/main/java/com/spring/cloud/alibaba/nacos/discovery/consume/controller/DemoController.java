@@ -12,7 +12,6 @@ import java.net.URI;
 
 /**
  * @author chenglutao
- * @date 2020-01-08 14:00
  */
 @RestController
 public class DemoController {
