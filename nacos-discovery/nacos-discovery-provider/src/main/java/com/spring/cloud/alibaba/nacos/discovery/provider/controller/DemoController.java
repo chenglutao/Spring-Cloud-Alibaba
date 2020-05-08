@@ -11,6 +11,6 @@ public class DemoController {
 
     @GetMapping("demo")
     public Object demo(String name){
-        return "Hello " + name;
+        return "Hello:" + name;
     }
 }
